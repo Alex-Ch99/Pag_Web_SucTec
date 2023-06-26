@@ -31,7 +31,7 @@
 .sobre-nosotros {
   display: flex;
   flex-direction: column;
-  padding: 3rem 2.5rem 2rem 2.5rem;
+  padding: 3rem 2rem 2rem 7rem;
 }
 .sobre-nosotros__parrafo {
   text-align: center;
@@ -39,7 +39,90 @@
 }
 .sobre-nosotros__contenedor {
   display: flex;
+  justify-content: space-between;
+  gap: 2rem;
 }
 .sobre-nosotros__imagen {
   width: 300px;
+}
+.sobre-nosotros__parrafo {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--azul-claro);
+}
+.sobre-nosotros__detalle {
+  width: 30%;
+  /* border: 1px solid black; */
+  padding: 1rem 0;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sobre-nosotros__detalle__titulo {
+  width: 100%;
+  /* word-wrap: break-word; */
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 3rem;
+  color: var(--verde-pricipal);
+}
+.sobre-nosotros__detalle__subtitulo {
+  font-size: 19px;
+  font-weight: 700;
+  /* margin-bottom: 7rem; */
+  color: var(--gris-oscuro);
+}
+.sobre-nosotros__detalle__descripcion {
+  color: var(--gris-claro);
+  line-height: 1.5rem;
+  font-size: 17px;
+}
+.sobre-nosotros__cualidades {
+  width: 30%;
+}
+.sobre-nosotros__cualidades__lista {
+  height: 100%;
+  /* padding-left: 2rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+.sobre-nosotros__cualidades__lista__detalle {
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  padding-left: 4.5rem;
+}
+.cualidad-experiencia {
+  /* border: 1px solid black; */
+  background-image: url(../img/experiencia.png);
+}
+
+.cualidad-enfoque {
+  background-image: url(../img/enfoque.png);
+}
+
+.cualidad-atencion {
+  background-image: url(../img/atencion.png);
+}
+
+.experiencia__titulo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.experiencia__detalle {
+  font-size: 17px;
+  line-height: 1.5rem;
+  color: var(--gris-claro);
+}
+.experiencia {
+  color: var(--azul-oscuro);
+}
+.enfoque {
+  color: var(--verde-pricipal);
+}
+.atencion {
+  color: var(--azul-claro);
 }
