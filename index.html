@@ -6,15 +6,44 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
-    <iframe
-      src="header.html"
-      frameborder="0"
-      scrolling="no"
-      width="100%"
-      height="250px"
-    ></iframe>
+    <header class="header">
+      <div class="header__informacion">
+        <div class="header__contacto">
+          <ul class="contacto__telefono-horario">
+            <li class="telefono__lista">964-991551</li>
+            <li class="horario__lista">Lun-Sab 08:00 - 19:00</li>
+          </ul>
+          <ul class="contacto__correo">
+            <li class="correo__lista">aklenergy@yahoo.com</li>
+            <li class="correo__apoyo">Estamos 24/7 para apoyatlo!!</li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__menu">
+        <img class="menu__logo" src="img/logo_akl.png" alt="Logo SunTec" />
+        <nav class="menu__descripcion">
+          <ul class="descripcion__enlace">
+            <li class="enlace__lista">Sobre nosotros</li>
+            <li class="enlace__lista">Servicios</li>
+            <li class="enlace__lista">Productos</li>
+            <li class="enlace__lista">Proyectos</li>
+            <li class="enlace__lista">Clientes</li>
+            <li class="enlace__lista">Contáctenos</li>
+          </ul>
+        </nav>
+        <nav class="menu__redes-sociales">
+          <ul class="redes-sociales__enlace">
+            <li class="red-social__lista">fa</li>
+            <li class="red-social__lista">in</li>
+            <!-- <li class="red-social__lista">tw</li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main>
       <section class="portada">
         <h1 class="portada__titulo">
@@ -81,6 +110,33 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer__descripcion">
+        <img src="img/logo_akl.png" alt="Logo SunTec" class="footer__logo" />
+        <p class="footer__titulo">
+          Alta especialización técnica en instalaciones eléctricas
+        </p>
+        <ul>
+          <li>fa</li>
+          <li>wa</li>
+          <li>tw</li>
+        </ul>
+      </div>
+      <div class="footer__contacto">
+        <p>964-991551</p>
+        <p>aklenergy@yahoo.com</p>
+        <p>Atención: de lunes a sábado 08:00 - 18:00</p>
+      </div>
+      <div class="footer__secciones">
+        <ul>
+          <li>Sobre nosotros</li>
+          <li>Servicios</li>
+          <li>Productos</li>
+          <li>Proyectos</li>
+          <li>Clientes</li>
+          <li>Contáctenos</li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

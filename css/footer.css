@@ -1,0 +1,14 @@
+footer {
+  background-color: var(--azul-footer);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+}
+
+.footer__logo {
+  width: 120px;
+}
+.footer__titulo {
+  color: var(--gris-claro);
+}
