@@ -1,0 +1,45 @@
+.portada {
+  background-image: url(../img/portada.jpg);
+  width: 100%;
+  height: 690px;
+  background-size: cover;
+  padding-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.portada__titulo {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--verde-pricipal);
+  line-height: 4.5rem;
+}
+.portada__garantia {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--azul-claro);
+}
+.portada__mejores {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--azul-oscuro);
+}
+
+.sobre-nosotros {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 2.5rem 2rem 2.5rem;
+}
+.sobre-nosotros__parrafo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.sobre-nosotros__contenedor {
+  display: flex;
+}
+.sobre-nosotros__imagen {
+  width: 300px;
+}

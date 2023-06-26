@@ -1,0 +1,71 @@
+.header {
+  width: 100%;
+}
+.header__informacion {
+  background-color: var(--verde-pricipal);
+  padding: 1.2rem 2.5rem;
+}
+.header__contacto {
+  display: flex;
+  justify-content: space-between;
+}
+.telefono__lista {
+  color: var(--azul-oscuro);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.horario__lista {
+  color: #bebdbd;
+  font-size: 0.9rem;
+}
+.correo__lista {
+  color: var(--azul-oscuro);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.correo__apoyo {
+  color: #bebdbd;
+  font-size: 1rem;
+}
+.header__menu {
+  /* background-image: url(../img/logo_akl.png); */
+  /* background-color: red; */
+  width: 100%;
+  padding: 1.2rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__logo {
+  width: 180px;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.descripcion__enlace {
+  color: var(--azul-claro);
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.enlace__lista {
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.enlace__lista:hover {
+  color: var(--naranja);
+  border-bottom: 2px solid var(--azul-claro);
+}
+
+.redes-sociales__enlace {
+  display: flex;
+  justify-content: space-between;
+}
+.red-social__lista {
+  padding: 1rem 2rem;
+  padding-right: 0;
+}
