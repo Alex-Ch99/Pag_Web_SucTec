@@ -1,13 +1,88 @@
 main {
-  padding: 2rem 6rem;
+  padding: 0 6rem 2rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.contacto__parrafo {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--azul-claro);
+}
+.contenedor {
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
 }
+.contacto__detalles {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 30%;
+  border: 1px solid black;
+}
+.contacto__detalles__numeros {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.telefono {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fa-headset {
+  font-size: 60px;
+  color: var(--gris-claro);
+}
+.cliente__parrafo {
+  font-weight: 700;
+}
+.cliente__numero {
+  font-weight: 400;
+}
+.cliente__mensaje {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.cliente__duda {
+  font-size: 0.9rem;
+  color: var(--gris-claro);
+  line-height: 1.5rem;
+}
+
 form {
+  width: 70%;
+  border: 1px solid black;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.correo-nombre {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  /* border: 1px solid green; */
+}
+.golaso {
+  width: 100%;
+}
+.entrada__nombre-correo {
   width: 50%;
+  border: 1px solid rgb(128, 0, 64);
+  flex-grow: 1;
+}
+.entrada__mensaje {
+  width: 100%;
 }
 .field {
+  width: 100%;
   margin-bottom: 10px;
+  /* border: 1px solid red; */
 }
 
 .field label {
@@ -30,9 +105,4 @@ input[type="submit"] {
   background-color: #4460aa;
   color: #fff;
   border: none;
-}
-.caja {
-  width: 30%;
-  height: 300px;
-  background-color: red;
 }

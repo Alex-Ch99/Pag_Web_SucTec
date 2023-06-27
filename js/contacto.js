@@ -14,7 +14,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
       alert("Mensaje enviado!");
     },
     (err) => {
-      btn.value = "Send Email";
+      btn.value = "Enviar Mensaje";
       alert(JSON.stringify(err));
     }
   );

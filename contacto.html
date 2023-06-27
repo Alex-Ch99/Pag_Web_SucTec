@@ -16,6 +16,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/header.css" />
@@ -81,24 +82,72 @@
       </div>
     </header>
     <main>
-      <div class="caja"></div>
-      <form id="form">
-        <div class="field">
-          <label for="from_name">Nombre</label>
-          <input type="text" name="from_name" id="from_name" />
-        </div>
-        <div class="field">
-          <label for="message">Mensaje</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
-          <!-- <input type="text" name="message" id="message" /> -->
-        </div>
-        <div class="field">
-          <label for="email_id">Correo</label>
-          <input type="text" name="email_id" id="email_id" />
-        </div>
+      <p class="contacto__parrafo">Contáctenos</p>
+      <div class="contenedor">
+        <section class="contacto__detalles">
+          <div class="contacto__detalles__numeros">
+            <i class="fa-solid fa-headset"></i>
+            <div class="telefono">
+              <p class="cliente__parrafo">Llame al servicio al cliente:</p>
+              <p class="cliente__numero">964-991551</p>
+            </div>
+          </div>
+          <p class="cliente__mensaje">Escribe Un Mensaje</p>
+          <p class="cliente__duda">
+            Si tiene alguna pregunta, no dude en enviarnos un mensaje.
+            ¡Respondemos dentro de las 24 horas!
+          </p>
+        </section>
+        <form id="form">
+          <div class="correo-nombre">
+            <div class="field golaso">
+              <label for="from_name">Nombre</label>
+              <input
+                type="text"
+                name="from_name"
+                id="from_name"
+                class="entrada__nombre-correo"
+              />
+            </div>
+            <div class="field">
+              <label for="email_id">Correo</label>
+              <input
+                type="text"
+                name="email_id"
+                id="email_id"
+                class="entrada__nombre-correo"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Mensaje</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              class="entrada__mensaje"
+            ></textarea>
+          </div>
 
-        <input type="submit" id="button" value="Enviar Mensaje" />
-      </form>
+          <input type="submit" id="button" value="Enviar Mensaje" />
+        </form>
+      </div>
+      <section class="mapa">
+        <p class="mapa__direccion">
+          Ubícanos en Jr. Santa Rosa, esquina con el Jr. Diamantes
+        </p>
+        <iframe
+          class="section__mapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4130668544575!2d-75.2200518!3d-12.067429599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910e97d2af516a9f%3A0x24039b27bcbabc92!2sJr.%20Santa%20Rosa%20y%20Jr.%20Diamantes%20El%20tambo!5e0!3m2!1ses!2spe!4v1687899934902!5m2!1ses!2spe"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
     </main>
     <footer>
       <div class="footer__descripcion">
