@@ -56,8 +56,10 @@
   text-align: center;
 }
 
-.enlace__lista:hover {
+.enlace__lista:hover .a__header {
   color: var(--naranja);
+}
+.enlace__lista:hover {
   border-bottom: 2px solid var(--azul-claro);
 }
 
@@ -68,4 +70,11 @@
 .red-social__lista {
   padding: 1rem 2rem;
   padding-right: 0;
+}
+
+.a__header {
+  padding: 1rem 0;
+}
+.a__header:visited {
+  color: var(--azul-claro);
 }
