@@ -100,37 +100,46 @@
         </section>
         <form id="form">
           <div class="correo-nombre">
-            <div class="field golaso">
-              <label for="from_name">Nombre</label>
+            <div class="field field__nombre-correo">
+              <label for="from_name">Nombre*</label>
               <input
                 type="text"
                 name="from_name"
                 id="from_name"
-                class="entrada__nombre-correo"
+                class="entrada-datos"
+                required
               />
             </div>
-            <div class="field">
-              <label for="email_id">Correo</label>
+            <div class="field field__nombre-correo">
+              <label for="email_id">Correo*</label>
               <input
-                type="text"
+                type="email"
                 name="email_id"
                 id="email_id"
-                class="entrada__nombre-correo"
+                class="entrada-datos"
+                required
               />
             </div>
           </div>
-          <div class="field">
-            <label for="message">Mensaje</label>
+          <div class="field field__mensaje">
+            <label for="message">Mensaje*</label>
             <textarea
               name="message"
               id="message"
               cols="30"
               rows="10"
-              class="entrada__mensaje"
+              class="entrada-datos mensaje"
+              required
             ></textarea>
           </div>
 
-          <input type="submit" id="button" value="Enviar Mensaje" />
+          <input
+            type="submit"
+            id="button"
+            value="Enviar Mensaje"
+            class="boton-enviar"
+          />
+          <div id="mensaje-enviado">✔ Genial, su mensaje ha sido recibido.</div>
         </form>
       </div>
       <section class="mapa">
@@ -215,5 +224,6 @@
       </div>
     </footer>
     <script src="js/contacto.js"></script>
+    <script src="js/enviar-mensaje.js"></script>
   </body>
 </html>
