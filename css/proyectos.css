@@ -1,0 +1,64 @@
+main {
+  padding: 2rem 4rem;
+}
+.section__obras {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.titulo__obras {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--azul-claro);
+}
+.subtitulo__obras {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--verde-principal);
+  text-align: center;
+}
+
+.conteiner__obras {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.card {
+  padding: 1.8rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background: rgb(51, 182, 48);
+  background: linear-gradient(
+    138deg,
+    rgba(51, 182, 48, 1) 10%,
+    rgba(70, 141, 231, 1) 48%,
+    rgba(51, 182, 48, 1) 91%
+  );
+  transition: transform 0.5s;
+}
+
+.imagen__obras {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.imagen__obra__titulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--azul-oscuro);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.imagen__obra__descripcion {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--blanco);
+  text-align: center;
+  margin-bottom: 1rem;
+}

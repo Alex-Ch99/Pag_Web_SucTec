@@ -122,7 +122,7 @@ form {
 }
 #mensaje-enviado {
   display: none;
-  background-color: var(--verde-pricipal);
+  background-color: var(--verde-principal);
   padding: 10px;
   max-width: 320px;
   border-radius: 10px;
@@ -134,7 +134,7 @@ form {
   font-size: 1.5rem;
   text-align: center;
   margin-bottom: 2rem;
-  color: var(--verde-pricipal);
+  color: var(--verde-principal);
 }
 .section__mapa {
   width: 100%;

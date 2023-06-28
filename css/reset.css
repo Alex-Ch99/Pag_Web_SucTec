@@ -11,7 +11,7 @@
 :root {
   --fira-sans: "Fira Sans", sans-serif;
   --rubik: "Rubik", sans-serif;
-  --verde-pricipal: #27a946;
+  --verde-principal: #27a946;
   --azul-claro: #4d739b;
   --naranja: #ffc541;
   --azul-oscuro: #3146d4;
@@ -22,4 +22,5 @@
   --blanco: #fff;
   --gris-form: #f3f3f4;
   --rosa: #ff79c6;
+  --crema: #a8a927;
 }

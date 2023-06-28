@@ -14,7 +14,7 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 3rem;
-  color: var(--verde-pricipal);
+  color: var(--verde-principal);
   line-height: 4.5rem;
 }
 .portada__garantia {
@@ -65,7 +65,7 @@
   font-size: 2em;
   font-weight: 700;
   line-height: 3rem;
-  color: var(--verde-pricipal);
+  color: var(--verde-principal);
 }
 .sobre-nosotros__detalle__subtitulo {
   font-size: 19px;
@@ -121,7 +121,7 @@
   color: var(--azul-oscuro);
 }
 .enfoque {
-  color: var(--verde-pricipal);
+  color: var(--verde-principal);
 }
 .atencion {
   color: var(--azul-claro);

@@ -2,7 +2,7 @@
   width: 100%;
 }
 .header__informacion {
-  background-color: var(--verde-pricipal);
+  background-color: var(--verde-principal);
   padding: 1.2rem 2.5rem;
 }
 .header__contacto {
