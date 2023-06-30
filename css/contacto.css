@@ -5,16 +5,31 @@ main {
   justify-content: space-between;
   gap: 2rem;
 }
+@media screen and (width<768px) {
+  main {
+    padding: 1rem 2rem;
+  }
+}
 .contacto__parrafo {
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
   color: var(--azul-claro);
 }
+@media screen and (width<375px) {
+  .contacto__parrafo {
+    font-size: 2rem;
+  }
+}
 .contenedor {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+}
+@media screen and (width<768px) {
+  .contenedor {
+    flex-direction: column;
+  }
 }
 .contacto__detalles {
   display: flex;
@@ -22,10 +37,21 @@ main {
   gap: 2rem;
   width: 30%;
 }
+@media screen and (width<768px) {
+  .contacto__detalles {
+    width: 100%;
+  }
+}
+
 .contacto__detalles__numeros {
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+@media screen and (width<992px) {
+  .contacto__detalles__numeros {
+    flex-direction: column;
+  }
 }
 .telefono {
   display: flex;
@@ -46,10 +72,32 @@ main {
   font-size: 1.5rem;
   font-weight: 700;
 }
+@media screen and (width<768px) {
+  .cliente__mensaje {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+@media screen and (width<375px) {
+  .cliente__mensaje {
+    font-size: 1.5rem;
+  }
+}
 .cliente__duda {
   font-size: 0.9rem;
   color: var(--gris-claro);
   line-height: 1.5rem;
+}
+@media screen and (width<768px) {
+  .cliente__duda {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (width<375px) {
+  .cliente__duda {
+    font-size: 1rem;
+  }
 }
 
 form {
@@ -60,10 +108,20 @@ form {
   gap: 2rem;
   justify-content: space-between;
 }
+@media screen and (width<768px) {
+  form {
+    width: 100%;
+  }
+}
 .correo-nombre {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+}
+@media screen and (width<992px) {
+  .correo-nombre {
+    flex-direction: column;
+  }
 }
 .field {
   display: flex;
@@ -75,8 +133,18 @@ label {
   font-weight: 700;
   color: var(--verde-principal);
 }
+@media screen and (width<375px) {
+  label {
+    font-size: 1rem;
+  }
+}
 .field__nombre-correo {
   width: 50%;
+}
+@media screen and (width<992px) {
+  .field__nombre-correo {
+    width: 100%;
+  }
 }
 .entrada-datos {
   font-size: 16px;
@@ -142,7 +210,22 @@ label {
   margin-bottom: 2rem;
   color: var(--verde-principal);
 }
+@media screen and (width<375px) {
+  .mapa__direccion {
+    font-size: 1.2rem;
+  }
+}
 .section__mapa {
   width: 100%;
   box-shadow: 0 0 4px var(--azul-oscuro);
+}
+@media screen and (width<768px) {
+  .section__mapa {
+    height: 300px;
+  }
+}
+@media screen and (width<375px) {
+  .section__mapa {
+    height: 200px;
+  }
 }

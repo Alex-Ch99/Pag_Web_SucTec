@@ -12,6 +12,11 @@
   font-weight: 700;
   color: var(--azul-claro);
 }
+@media screen and (width<576px) {
+  .productos__titulo {
+    font-size: 2rem;
+  }
+}
 .contenedero__productos {
   /* border: 1px solid green; */
   width: 100%;
@@ -27,6 +32,16 @@
   flex-direction: column;
   gap: 1rem;
   /* border: 1px solid black; */
+}
+@media screen and (width<576px) {
+  .productos {
+    width: 40%;
+  }
+}
+@media screen and (width<375px) {
+  .productos {
+    width: 80%;
+  }
 }
 .productos:hover .producto__imagen {
   transform: scale(1.02);

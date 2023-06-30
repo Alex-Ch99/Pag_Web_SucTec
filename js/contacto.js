@@ -33,7 +33,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
 
         // Restaurar el texto original del botón
         btn.value = btnTextOriginal;
-      }, 3000);
+      }, 2000);
     },
     (err) => {
       btn.value = "Enviar Mensaje";
