@@ -34,7 +34,7 @@
   }
 }
 .horario__lista {
-  color: #bebdbd;
+  color: var(--gris-secundario);
   font-size: 0.9rem;
 }
 @media screen and (width<768px) {
@@ -53,7 +53,7 @@
   }
 }
 .correo__apoyo {
-  color: #bebdbd;
+  color: var(--gris-secundario);
   font-size: 1rem;
 }
 @media screen and (width<768px) {
@@ -97,14 +97,14 @@
   .menu__logo {
     width: 120px;
     height: 80px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 }
 .box-enlace-red {
   width: 90%;
   display: flex;
   justify-content: space-around;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   align-items: center;
 }
 @media screen and (width<768px) {
