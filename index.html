@@ -8,10 +8,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/panel.css" />
   </head>
   <body>
     <header class="header">
@@ -27,49 +32,54 @@
           </ul>
         </div>
       </div>
-      <div class="header__menu">
-        <img class="menu__logo" src="img/logo_akl.png" alt="Logo SunTec" />
-        <nav class="menu__descripcion">
-          <ul class="descripcion__enlace">
-            <li class="enlace__lista">
-              <a class="a__header" href="index.html" target="_blank"
-                >Sobre nosotros</a
-              >
-            </li>
-            <li class="enlace__lista">
-              <a class="a__header" href="servicios.html" target="_blank"
-                >Servicios</a
-              >
-            </li>
-            <li class="enlace__lista">
-              <a class="a__header" href="productos.html" target="_blank"
-                >Productos</a
-              >
-            </li>
-            <li class="enlace__lista">
-              <a class="a__header" href="proyectos.html" target="_blank"
-                >Proyectos</a
-              >
-            </li>
-            <li class="enlace__lista">
-              <a class="a__header" href="clientes.html" target="_blank"
-                >Clientes</a
-              >
-            </li>
-            <li class="enlace__lista">
-              <a class="a__header" href="contacto.html" target="_blank"
-                >Contáctenos</a
-              >
-            </li>
-          </ul>
-        </nav>
-        <nav class="menu__redes-sociales">
-          <ul class="redes-sociales__enlace">
-            <li class="red-social__lista">fa</li>
-            <li class="red-social__lista">in</li>
-            <!-- <li class="red-social__lista">tw</li> -->
-          </ul>
-        </nav>
+      <div class="menu__estatico">
+        <div class="header__menu">
+          <img class="menu__logo" src="img/logo_akl.png" alt="Logo SunTec" />
+          <nav class="menu__descripcion">
+            <ul class="descripcion__enlace">
+              <li class="enlace__lista">
+                <a class="a__header" href="index.html" target="_blank"
+                  >Sobre nosotros</a
+                >
+              </li>
+              <li class="enlace__lista">
+                <a class="a__header" href="servicios.html" target="_blank"
+                  >Servicios</a
+                >
+              </li>
+              <li class="enlace__lista">
+                <a class="a__header" href="productos.html" target="_blank"
+                  >Productos</a
+                >
+              </li>
+              <li class="enlace__lista">
+                <a class="a__header" href="proyectos.html" target="_blank"
+                  >Proyectos</a
+                >
+              </li>
+              <li class="enlace__lista">
+                <a class="a__header" href="clientes.html" target="_blank"
+                  >Clientes</a
+                >
+              </li>
+              <li class="enlace__lista">
+                <a class="a__header" href="contacto.html" target="_blank"
+                  >Contáctenos</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav class="menu__redes-sociales">
+            <ul class="redes-sociales__enlace">
+              <li class="red-social__lista">
+                <a href="https://google.com" target="_blank"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <!-- <li class="red-social__lista">tw</li> -->
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
@@ -203,5 +213,6 @@
         </a>
       </div>
     </footer>
+    <script src="js/panel.js" type="module"></script>
   </body>
 </html>

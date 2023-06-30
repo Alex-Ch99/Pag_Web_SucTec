@@ -17,10 +17,20 @@
   color: var(--verde-principal);
   line-height: 4.5rem;
 }
+@media screen and (width<768px) {
+  .portada__titulo {
+    font-size: 2.5rem;
+  }
+}
 .portada__garantia {
   font-weight: 700;
   font-size: 2rem;
   color: var(--azul-claro);
+}
+@media screen and (width<768px) {
+  .portada__garantia {
+    font-size: 1.5rem;
+  }
 }
 .portada__mejores {
   font-weight: 700;
@@ -31,7 +41,7 @@
 .sobre-nosotros {
   display: flex;
   flex-direction: column;
-  padding: 3rem 2rem 2rem 7rem;
+  padding: 3rem 2rem 2rem 2rem;
 }
 .sobre-nosotros__parrafo {
   text-align: center;
@@ -42,22 +52,43 @@
   justify-content: space-between;
   gap: 2rem;
 }
+@media screen and (width<768px) {
+  .sobre-nosotros__contenedor {
+    flex-wrap: wrap;
+  }
+}
 .sobre-nosotros__imagen {
-  width: 300px;
+  width: 30%;
+  max-height: 450px;
+  object-fit: cover;
+}
+@media screen and (width<768px) {
+  .sobre-nosotros__imagen {
+    width: 40%;
+  }
 }
 .sobre-nosotros__parrafo {
   font-size: 3rem;
   font-weight: 700;
   color: var(--azul-claro);
 }
+@media screen and (width<768px) {
+  .sobre-nosotros__parrafo {
+    font-size: 2.5rem;
+  }
+}
 .sobre-nosotros__detalle {
   width: 30%;
   /* border: 1px solid black; */
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
   display: flex;
   gap: 2rem;
   flex-direction: column;
-  justify-content: space-evenly;
+}
+@media screen and (width<768px) {
+  .sobre-nosotros__detalle {
+    width: 50%;
+  }
 }
 .sobre-nosotros__detalle__titulo {
   width: 100%;
@@ -77,9 +108,16 @@
   color: var(--gris-claro);
   line-height: 1.5rem;
   font-size: 17px;
+  text-align: justify;
 }
 .sobre-nosotros__cualidades {
   width: 30%;
+}
+@media screen and (width<768px) {
+  .sobre-nosotros__cualidades {
+    width: 100%;
+    margin-top: 2rem;
+  }
 }
 .sobre-nosotros__cualidades__lista {
   height: 100%;
@@ -89,10 +127,16 @@
   justify-content: space-between;
   /* border: 1px solid black; */
 }
+@media screen and (width<768px) {
+  .sobre-nosotros__cualidades__lista {
+    flex-direction: row;
+  }
+}
 .sobre-nosotros__cualidades__lista__detalle {
   background-repeat: no-repeat;
   background-size: 60px 60px;
   padding-left: 4.5rem;
+  margin-bottom: 1rem;
 }
 .cualidad-experiencia {
   /* border: 1px solid black; */
