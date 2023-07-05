@@ -20,6 +20,7 @@ footer {
 }
 .footer__descripcion {
   /* height: 100%; */
+  /* width: 50%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,6 +42,7 @@ footer {
   font-weight: 700;
   text-align: center;
 }
+
 /* continuar aqui */
 .boton {
   /* display: inline-block; */
@@ -54,7 +56,9 @@ footer {
   font-size: 1rem;
   transition: all 0.3s ease;
 }
-
+.boton:visited {
+  color: var(--blanco);
+}
 .boton:hover {
   background-color: var(--verde-secundario);
   cursor: pointer;
