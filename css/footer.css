@@ -129,6 +129,9 @@ footer {
 .whatsapp {
   position: relative;
 }
+.whatsapp:hover {
+  cursor: pointer;
+}
 .whatsapp__logo {
   position: fixed;
   bottom: 6rem;
@@ -141,5 +144,33 @@ footer {
   .whatsapp__logo {
     width: 40px;
     height: 40px;
+  }
+}
+.chats {
+  display: none;
+}
+.activo {
+  display: flex;
+}
+.chats-box {
+  max-width: 200px;
+  padding: 1rem;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 3rem;
+  right: 6rem;
+  background-color: var(--blanco);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  color: var(--azul-footer);
+  border: 1px solid black;
+  font-weight: 700;
+}
+@media screen and (width<300px) {
+  .chats-box {
+    bottom: 10rem;
+    right: 2rem;
   }
 }
