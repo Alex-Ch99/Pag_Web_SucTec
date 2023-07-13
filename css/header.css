@@ -153,12 +153,12 @@
   font-size: 2rem;
   color: var(--azul-oscuro);
 }
-a:visited {
-  color: var(--azul-oscuro);
-}
-
 .a__header {
   padding: 1rem 0;
+  color: var(--azul-oscuro);
+}
+.a__header:visited {
+  color: var(--azul-oscuro);
 }
 @media screen and (width<375px) {
   .a__header {
