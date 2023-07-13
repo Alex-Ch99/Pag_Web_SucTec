@@ -9,24 +9,25 @@
   justify-content: center;
   gap: 3rem;
 }
+
 @media screen and (width<768px) {
   .portada {
     /* background-image: none; */
     background-color: rgba(0, 0, 0, 0.753);
     height: 450px;
     /* width: 275px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     gap: 1rem;
     padding-left: 1rem;
   }
 }
 @media screen and (width<375px) {
   .portada {
-    background-image: none;
+    /* background-image: none; */
     background-color: rgba(0, 0, 0, 0.753);
     height: 150px;
     /* width: 275px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     gap: 1rem;
     padding-left: 1rem;
   }
@@ -36,7 +37,9 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 3rem;
-  color: var(--verde-principal);
+  color: var(--verde-secundario);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   line-height: 4.5rem;
 }
 @media screen and (width<768px) {
@@ -61,6 +64,8 @@
   font-weight: 700;
   font-size: 2rem;
   color: var(--azul-claro);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 @media screen and (width<768px) {
   .portada__garantia {
@@ -75,7 +80,9 @@
 .portada__mejores {
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--azul-oscuro);
+  color: var(--blanco);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 @media screen and (width<375px) {
   .portada__mejores {
