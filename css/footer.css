@@ -118,6 +118,7 @@ footer {
 .footer__a__lista {
   margin: 1rem;
   text-align: center;
+  color: var(--blanco);
 }
 .a__footer:visited {
   color: var(--blanco);
