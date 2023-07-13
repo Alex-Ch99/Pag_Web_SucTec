@@ -122,9 +122,6 @@ footer {
 .a__footer {
   color: var(--blanco);
 }
-.a__footer:visited {
-  color: var(--blanco);
-}
 .a__footer:hover {
   cursor: pointer;
   border-bottom: 2px solid var(--verde-principal);

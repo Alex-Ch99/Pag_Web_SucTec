@@ -153,18 +153,15 @@
   font-size: 2rem;
   color: var(--azul-oscuro);
 }
+.facebook {
+  color: var(--azul-claro);
+}
 .a__header {
   padding: 1rem 0;
-  color: var(--azul-oscuro);
-}
-.a__header:visited {
-  color: var(--azul-oscuro);
+  color: var(--azul-claro);
 }
 @media screen and (width<375px) {
   .a__header {
     padding: 0;
   }
-}
-.a__header:visited {
-  color: var(--azul-claro);
 }
